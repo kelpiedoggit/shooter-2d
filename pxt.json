@@ -1,0 +1,36 @@
+{
+    "name": "Shooter 2D",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "controller": "*",
+        "animation": "*",
+        "pxt-button-combos": "github:jwunderl/pxt-button-combos#v0.0.24",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.2.10",
+        "storyboard": "*",
+        "keyboard": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.0.16",
+        "tag": "v1.0.16",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/3d3129177a6331fa694e0eb095a96de316256656",
+        "target": "1.0.16",
+        "pxt": "6.1.42",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
